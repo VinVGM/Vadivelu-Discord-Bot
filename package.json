@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VinVGM/Vadivelu-Discord-Bot/issues"
   },
-  "homepage": "https://github.com/VinVGM/Vadivelu-Discord-Bot#readme"
+  "homepage": "https://github.com/VinVGM/Vadivelu-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  }
 }
