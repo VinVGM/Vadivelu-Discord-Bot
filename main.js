@@ -33,30 +33,35 @@ client.on('message', message =>{
             const newEmbed = new Discord.MessageEmbed()
             .setColor('#304281')
             .setImage(chosenimage)
-            .setDescription(`${taggeduser} roasted by ${message.author}`)
+            .setDescription(`${taggeduser} roasted by ${message.author}`);
             
-            if(chosenimage = police){
-                newEmbed.setFooter('na yaaru nu theriyulaa')
+            if(chosenimage === police){
+                newEmbed.setFooter('na yaaru nu theriyulaa');
+                console.log('wtf');
             } 
-            if(chosenimage = binladen)
+            if(chosenimage === binladen)
             {
-                newEmbed.setFooter('Ennada Enna')
+                newEmbed.setFooter('Ennada Enna');
+                console.log('wtf');
             }
-            if(chosenimage = sorry)
+            if(chosenimage === sorry)
             {
-                newEmbed.setFooter('sOORY bOORY kUPPATHATI lORRY')
+                newEmbed.setFooter('sOORY bOORY kUPPATHATI lORRY');
+                console.log('wtf');
             } 
-            if(chosenimage = naara)
+            if(chosenimage === naara)
              {  
-                 newEmbed.setFooter('Vanduthaan') 
+                 newEmbed.setFooter('Vanduthaan');
+                 console.log('wtf');
             } 
-            if(chosenimage = rowdydaan)
-               { newEmbed.setFooter('Yaarnu theriyulaa')
-            };
+            if(chosenimage === rowdydaan) {
+            newEmbed.setFooter('Yaarnu theriyulaa');
+            }
+            
 
             
             message.channel.send(newEmbed);    
         }
 });
 
-client.login('lmao tryna hack?');
+client.login('tryna hack lmao');
